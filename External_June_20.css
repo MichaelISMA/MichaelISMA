@@ -1,0 +1,99 @@
+#head{
+    display:inline-flex ;
+    background-color: black;
+    font-size: 30;
+    border-style: double;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#child1{
+    display: inline-flex;
+    padding-left: 325px;
+    font-family: cursive;
+    
+}
+#child2{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+#child3{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+#child4{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+#child5{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+#child6{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+#child7{
+    display: inline-flex;
+    padding-left: 45px;
+    font-family: cursive;
+}
+
+#parent{
+    background-color: black;
+}
+
+.background-pic{
+    background-image: url(C:\Users\mikay\OneDrive\Desktop\Projects\TEST\Assignments\Web-Page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 940px;
+    width: 100%;
+    opacity: 0.90;
+}
+
+#para{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-family: cursive;
+   border-style: double;
+   border-radius: 5%;
+   
+}
+
+#href{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-family: cursive;
+    border-style: double;
+    border-radius: 5%;
+    font-size: 25px;
+    border-color: white;
+}
+
+a:link, a:visited{
+    color: white;
+    background-color: black;
+    opacity: 0.75;
+    text-decoration: none;
+
+}
+#hover:hover{
+    font-size: 150%;
+    color: white;
+}
+
+.menu:hover{
+    color: white;
+}
